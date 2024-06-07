@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 hi i am ravi
+=======
+ravi madarchot
+>>>>>>> 36f909b0d0002100e047e847af5674a185bd55cb
