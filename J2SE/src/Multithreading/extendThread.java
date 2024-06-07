@@ -33,6 +33,23 @@ public class extendThread {
 
         A obj1 = new A();
         B obj2 = new B();
+
+        obj1.setPriority(Thread.MAX_PRIORITY);
+
+        System.out.println(obj1.getPriority());
+
+        obj1.start();
+        try{
+            Thread.sleep(10);
+        } catch(InterruptedException e){
+            throw new RuntimeException(e);
+        }
+        obj2.start();
+        try{
+            Thread.sleep(10);
+        } catch(InterruptedException e){
+            throw new RuntimeException(e);
+        }
     }
 }
 
